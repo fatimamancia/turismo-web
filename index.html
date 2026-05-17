@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Salvador — Tierra de Fuego y Mar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <div class="logo-star">✦</div>
+      <span class="logo-text">El <span>Salvador</span></span>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#destinos">Destinos</a></li>
+      <li><a href="#info">El País</a></li>
+      <li><a href="#experiencias">Experiencias</a></li>
+      <li><a href="#footer" class="nav-cta">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <header class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Bienvenido a El Salvador</p>
+      <h1 class="hero-title">
+        Tierra de<br />
+        <em>Fuego &amp; Mar</em>
+      </h1>
+      <div class="hero-divider"></div>
+      <p class="hero-subtitle">
+        Volcanes que despiertan, playas que brillan,<br />
+        cultura que vibra. El Salvador te espera.
+      </p>
+      <div class="hero-actions">
+        <a href="#destinos" class="btn btn--primary">&#9658; Explorar Destinos</a>
+        <a href="#info" class="btn btn--ghost">Conocer Más</a>
+      </div>
+    </div>
+
+    <div class="hero-badge">
+      <div class="hero-badge-icon">🏆</div>
+      <div class="hero-badge-text">
+        <strong>Destino Destacado 2025</strong>
+        <span>Centroamérica · Lonely Planet</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <p>By Fátima Gómez Mancía</p>
+      <div class="scroll-bar"></div>
+    </div>
+  </header>
+
+  <!-- ═══ GALERÍA / DESTINOS ═══ -->
+  <section class="gallery-section" id="destinos">
+    <div class="section-header">
+      <p class="section-label">Destinos Destacados</p>
+      <h2 class="section-title">Lugares que<br /><em>roban el aliento</em></h2>
+    </div>
+
+    <div class="gallery-grid">
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://github.com/fatimamancia/images/blob/b1dec736cf0a96578d7d9c454949de3bd1c06b61/suchitoto.jpg?raw=true"
+            alt="Suchitoto" loading="lazy" />
+          <div class="card-badge">Colonial</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Suchitoto</h3>
+          <p class="card-desc">El corazón colonial de El Salvador. Calles empedradas, iglesias del siglo XVIII y el Lago
+            Suchitlán te envuelven en historia viva y auténtica.</p>
+          <a href="#" class="card-link">Descubrir <span class="arrow">→</span></a>
+        </div>
+        <div class="card-line"></div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://github.com/fatimamancia/images/blob/b1dec736cf0a96578d7d9c454949de3bd1c06b61/el%20tunco.jpg?raw=true"
+            alt="El Tunco" loading="lazy" />
+          <div class="card-badge">Playa &amp; Surf</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">El Tunco</h3>
+          <p class="card-desc">La meca del surf centroamericano. Olas perfectas, puestas de sol ardientes y una vibra
+            bohemia inigualable que atrapa el alma de todo visitante.</p>
+          <a href="#" class="card-link">Descubrir <span class="arrow">→</span></a>
+        </div>
+        <div class="card-line"></div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://github.com/fatimamancia/images/blob/b1dec736cf0a96578d7d9c454949de3bd1c06b61/santa%20ana.jpg?raw=true"
+            alt="Volcán Santa Ana" loading="lazy" />
+          <div class="card-badge">Aventura</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Volcán Santa Ana</h3>
+          <p class="card-desc">El volcán más alto de El Salvador. Su cráter con laguna de azufre turquesa es una de las
+            vistas más impresionantes de toda Centroamérica.</p>
+          <a href="#" class="card-link">Descubrir <span class="arrow">→</span></a>
+        </div>
+        <div class="card-line"></div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://images.pexels.com/photos/35730892/pexels-photo-35730892.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="San Salvador" loading="lazy" />
+          <div class="card-badge">Patrimonio</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">San Salvador</h3>
+          <p class="card-desc">La capital vibrante de El Salvador. Su catedral metropolitana, mercados coloridos y
+            moderna gastronomía fusionan pasado y presente de forma única.</p>
+          <a href="#" class="card-link">Descubrir <span class="arrow">→</span></a>
+        </div>
+        <div class="card-line"></div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://github.com/fatimamancia/images/blob/b1dec736cf0a96578d7d9c454949de3bd1c06b61/Lago-de-Coatepeque-1.jpg?raw=true"
+            alt="Lago Coatepeque" loading="lazy" />
+          <div class="card-badge">Naturaleza</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Lago Coatepeque</h3>
+          <p class="card-desc">Una caldera volcánica convertida en joya azul. Aguas cristalinas rodeadas de vegetación
+            tropical y vistas panorámicas que quitan el habla.</p>
+          <a href="#" class="card-link">Descubrir <span class="arrow">→</span></a>
+        </div>
+        <div class="card-line"></div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://github.com/fatimamancia/images/blob/b1dec736cf0a96578d7d9c454949de3bd1c06b61/ataco.jpg?raw=true"
+            alt="Ruta de las Flores" loading="lazy" />
+          <div class="card-badge">Cultura</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Ruta de las Flores</h3>
+          <p class="card-desc">Un corredor de pueblos mágicos donde el café de especialidad, el arte artesanal y los
+            colores salvadoreños se fusionan en una experiencia irrepetible.</p>
+          <a href="#" class="card-link">Descubrir <span class="arrow">→</span></a>
+        </div>
+        <div class="card-line"></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ═══ INFO DEL PAÍS ═══ -->
+  <section class="info-section" id="info">
+    <div class="info-text">
+      <p class="section-label">El País</p>
+      <h2 class="section-title">Pequeño en tamaño,<br /><em>inmenso en alma</em></h2>
+      <p class="info-desc">El Salvador es el país más pequeño de Centroamérica, pero su riqueza natural, cultural y
+        humana no tiene comparación. Con 300 km de costa pacífica, más de 20 volcanes, bosques nubosos y una gastronomía
+        única, es un destino que sorprende en cada curva del camino.</p>
+    </div>
+    <div class="info-stats">
+      <div class="stat-card">
+        <span class="stat-icon">🌋</span>
+        <span class="stat-num" data-target="20">0</span>
+        <span class="stat-label">Volcanes</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">🏖️</span>
+        <span class="stat-num" data-target="300">0</span>
+        <span class="stat-label">km de costa</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">🌿</span>
+        <span class="stat-num" data-target="35">0</span>
+        <span class="stat-label">Áreas naturales</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">🏛️</span>
+        <span class="stat-num" data-target="2">0</span>
+        <span class="stat-label">Sitios UNESCO</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIENCIAS ═══ -->
+  <section class="exp-section" id="experiencias">
+    <div class="section-header">
+      <p class="section-label">¿Qué vivir?</p>
+      <h2 class="section-title">Experiencias <em>únicas</em></h2>
+    </div>
+    <div class="exp-flex">
+      <div class="exp-item">
+        <div class="exp-icon">🤿</div>
+        <h4>Surf &amp; Mar</h4>
+        <p>Olas clase mundial en El Zonte, El Tunco y La Libertad para todos los niveles.</p>
+      </div>
+      <div class="exp-item">
+        <div class="exp-icon">🥾</div>
+        <h4>Senderismo</h4>
+        <p>Rutas de volcanes, bosques nubosos y cascadas escondidas en plena naturaleza.</p>
+      </div>
+      <div class="exp-item">
+        <div class="exp-icon">☕</div>
+        <h4>Café de Origen</h4>
+        <p>Visita fincas cafetaleras en las alturas de Apaneca-Ilamatepec con degustaciones.</p>
+      </div>
+      <div class="exp-item">
+        <div class="exp-icon">🎨</div>
+        <h4>Arte &amp; Cultura</h4>
+        <p>Festivales, artesanías y murales que narran la identidad salvadoreña con orgullo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-star" style="animation:none;">✦</div>
+        <span class="logo-text">El <span>Salvador</span></span>
+        <p>Tierra de Fuego y Mar</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#destinos">Destinos</a>
+        <a href="#info">El País</a>
+        <a href="#experiencias">Experiencias</a>
+      </nav>
+      <p class="footer-copy">© 2025 Turismo El Salvador — Hecho con ❤️ para el mundo.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
